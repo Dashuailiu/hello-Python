@@ -1,7 +1,6 @@
 # -*- coding:utf-8 -*-
 import socket
 import threading
-from threading import Thread
 
 def tcp_link(sock,addr):
     sock.send(b'hello I`m Sever!')
